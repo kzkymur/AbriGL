@@ -1,6 +1,6 @@
 module.exports = {
     mode: 'production',
-    entry: __dirname + "/src/init.js", 
+    entry: __dirname + "/src/index.js", 
     output: {
         path: __dirname, //ビルドしたファイルを吐き出す場所
 		filename: 'abrigl.js',
