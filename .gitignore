@@ -1,2 +1,5 @@
 ./node_modules/ 
 ./AbriGL_sample.jpg
+
+.npmrc
+.zshrc

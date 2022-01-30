@@ -1,15 +1,16 @@
 {
-  "name": "AbriGL",
+  "name": "@kzkymur/abrigl",
   "version": "1.0.0",
   "description": "",
-  "main": "Elements.js",
+  "main": "abrigl.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack"
+    "start": "webpack",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kzkymur/smgl.js.git"
+    "url": "https://github.com/kzkymur/AbriGL.git"
   },
   "author": "",
   "license": "ISC",
@@ -31,5 +32,8 @@
   },
   "dependencies": {
     "babel-plugin-add-module-exports": "^1.0.2"
+  },
+  "publishConfig": {
+    "@kzkymur:registry":"https://npm.pkg.github.com/"
   }
 }

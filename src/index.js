@@ -20,4 +20,3 @@ export default class AbriGL {
 		this.hsva = hsva;
     }
 }
-
